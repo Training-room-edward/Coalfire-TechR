@@ -1,0 +1,4 @@
+#! /bin/bash
+sudo apt-get update
+sudo hostnamectl set-hostname --static wpserver2
+sudo systemctl reboot
